@@ -1,0 +1,24 @@
+name: inspection_app
+description: مراقبة انتقاء الأعوان المتعاقدين
+publish_to: "none"
+version: 1.1.0+2
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+  pdf: ^3.10.0
+  printing: ^5.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/DejaVuSans.ttf
+    - assets/fonts/DejaVuSans-Bold.ttf
